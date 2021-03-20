@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext
+            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+            http://www.liquibase.org/xml/ns/dbchangelog
+            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <include file="src/main/resources/db/changelog/db.changelog.create-addresses-table.xml"/>
+    <include file="src/main/resources/db/changelog/db.changelog.create-customers-table.xml"/>
+    <include file="src/main/resources/db/changelog/db.changelog.create-merchants-table.xml"/>
+    <include file="src/main/resources/db/changelog/db.changelog.create-product-quotas-table.xml"/>
+    <include file="src/main/resources/db/changelog/db.changelog.create-products-table.xml"/>
+    <include file="src/main/resources/db/changelog/db.changelog.create-sale-order-details-table.xml"/>
+    <include file="src/main/resources/db/changelog/db.changelog.create-sale-orders-table.xml"/>
+    <include file="src/main/resources/db/changelog/db.changelog.create-users-table.xml"/>
+</databaseChangeLog>
